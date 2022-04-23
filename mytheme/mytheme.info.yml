@@ -1,0 +1,21 @@
+name: My test theme
+type: theme
+description: 'The custom theme for My project'
+core: 8.x
+regions:
+  hidden: 'Hidden'
+  page_top_menu: 'Page top menu'
+  content_before: 'Before Content'
+  sidebar_left: 'Sidebar Left'
+  content: 'Content'
+  sidebar_right: 'Sidebar Right'
+  content_after: 'After Content'
+  help: 'Help'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  header: 'Header'
+  footer: 'Footer'
+  breadcrumb: 'Breadcrumb'
+libraries:
+  - mytheme/global-styling
+  - mytheme/global-scripts

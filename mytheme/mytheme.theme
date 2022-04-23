@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * Functions to support theming.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Template\Attribute;
+use Drupal\node\Entity\Node;
+use Drupal\Core\Url;
+use Drupal\Core\Render;
+use Drupal\Core\Render\Markup;
+
+ function entropia_preprocess_html(&$variables) {
+    $variables['#attached']['library'][] = 'mytheme/global-styling';
+ }

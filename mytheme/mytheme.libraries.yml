@@ -1,0 +1,46 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/main.css: {}
+      scss/main.scss: {}
+      slick/slick.css: {}
+      css/bootstrap.min.css: {}
+      css/animate.min.css: {}
+      slick/slick-min.css: {}
+      slick/slick-theme.css: {}
+      simplelightbox/simple-lightbox.css: {}
+      scss/base/_base.scss: {}
+      scss/base/_footer.scss: {}
+      scss/base/_icons.scss: {}
+      scss/base/_mixins.scsc: {}
+      scss/base/_nav.scss: {}
+      scss/base/_typography.scss: {}
+      scss/base/_variables.scss: {}
+      scss/layout/_button.scss: {}
+      scss/layout/_cards.scss: {}
+      scss/layout/_forms.scss: {}
+      scss/layout/_header.scss: {}
+      scss/layout/_model.scss: {}
+      scss/layout/_section.scss: {}
+      scss/layout/_slider.scss: {}
+      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css:
+        {}
+global-scripts:
+  version: VERSION
+  js:
+    js/jquery.min.js: {}
+    js/counter/jquery.counterup.min.js: {}
+    js/slick-animattion.min.js: {}
+    js/bootstrap.bundle.min.js: {}
+    js/modernizr-custome.js: {}
+    js/maps.js: {}
+    js/affix.js: {}
+    js/main.js: {}
+    js/counter/waypoints.min.js: {}
+    js/gsap/CSSPlugin.min.js: {}
+    js/gsap/TimeLite.min.js: {}
+    js/gsap/TweenMax.min.js: {}
+    js/scrollmagic/animation.gsap.min.js: {}
+    js/scrollmagic/ScrollMagic.min.js: {}
+    js/simplelightbox/simple-lightbox.js: {}
